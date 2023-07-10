@@ -1,0 +1,111 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+
+body{
+    background-color:#C9D6C2
+}
+
+header{
+    background-color: #E4EAE1;
+    font-size: large;
+    margin-bottom: 1px;
+   
+  
+  
+}
+
+
+.menu{
+    text-align: right;
+}
+
+.card-img-top{
+    width: 250;
+    height: 200px;
+}
+
+
+
+
+
+footer{
+background-color: #E4EAE1;
+padding: 50px;
+text-align: center;
+
+}
+/* estilos de main */
+
+main{
+    background-color: #E4EAE1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1px;
+}
+
+main .boton{
+    color: black;
+    background-color: yellow;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 10%;
+    
+
+}
+
+main a{
+text-decoration: none;
+}
+
+
+main img{
+    width: 80%;
+    padding: 1rem;
+}
+
+main h1{
+    margin-bottom: 20px;
+}
+
+main p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* estilos de section */
+section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    justify-content: center;
+    background-color: #E4EAE1;
+    margin-bottom: 1px;
+    
+    
+
+}
+
+
+.planes{
+    text-align: center;
+}
+
+.card{
+    margin: 1rem;
+   
+}
+
+.card-body{
+    background-color: #C9D6C2;
+}
+
+
