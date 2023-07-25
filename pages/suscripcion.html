@@ -14,7 +14,9 @@
 </head>
 
 <body>
+  <!-- header -->
   <header>
+    <!-- nav -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html"><img src="../assets/logo.png" alt="logo bien estar"></a>
@@ -22,7 +24,7 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
@@ -50,23 +52,50 @@
   </header>
 
   <main>
-    <h1>Registrate para gestionar tu cuenta
+    <!-- titulo suscripcion -->
+    <h1 class="titulo-suscripcion">Registrate para gestionar tu cuenta
     </h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea accusamus sapiente dolor, et ducimus aperiam
-      voluptatibus expedita rerum praesentium, laborum tempora nam officia. Veritatis perspiciatis doloremque
-      voluptatibus culpa temporibus.</p>
-    <!-- proximamente formulario de registro -->
+
   </main>
 
-  <section>
 
-    
+  <!-- formulario de registro -->
+
+  <section class="formulario">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Mail</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@mail.com">
+    </div>
+
+    <label for="inputPassword5" class="form-label">Contraseña</label>
+    <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
+    <div id="passwordHelpBlock" class="form-text">
+      Su contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe contener espacios,
+      carateres especiales o emoji.
+    </div>
+    <button type="button" class="btn btn-outline-success">Registrate</button>
+
   </section>
 
-
-
+  <!-- footer -->
   <footer>
-    Todos los derechos reservados
+    <div>
+      <a href="http://www.instagram.com" target="_blank"><img src="../assets/instagram.png"
+          alt="logo para redirigir a instagram"></a>
+      <a href="http://www.twitter.com" target="_blank"><img src="../assets/twitter.png"
+          alt="logo para redirigir a twitter"></a>
+      <a href="http://www.facebook.com" target="_blank"><img src="../assets/facebook.png"
+          alt="logo para redirigir a facebook"></a>
+    </div>
+
+    <div class="derechos">Todos los derechos reservados.
+
+    </div>
   </footer>
 
   <!-- script -->

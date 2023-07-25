@@ -1,113 +1,135 @@
-/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+header {
+  background-color: #E4EAE1;
+  font-size: large;
+  margin-bottom: 1px; }
 
-/* estilos generales */
-
-body{
-    background-color:#C9D6C2
-}
-
-header{
-    background-color: #E4EAE1;
-    font-size: large;
-    margin-bottom: 1px;
-   
-  
-  
-}
-
-
-.menu{
-    text-align: right;
-}
-
-.card-img-top{
-    width: 250;
-    height: 200px;
-}
-
-
-
-
-
-
-
-footer{
-background-color: #E4EAE1;
-padding: 50px;
-text-align: center;
-
-}
-/* estilos de main */
-
-main{
-    background-color: #E4EAE1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    margin-bottom: 1px;
-}
-
-main .boton{
+main {
+  background-color: #E4EAE1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1px; }
+  main h1 {
+    margin-bottom: 40px;
+    font-family: 'REM', sans-serif; }
+  main p {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center; }
+  main a {
+    text-decoration: none; }
+  main .boton {
     color: black;
     background-color: yellow;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    border-radius: 10%;
-    
-
-}
-
-main a{
-text-decoration: none;
-}
-
-
-main img{
+    border-radius: 10%; }
+  main img {
     width: 80%;
-    padding: 1rem;
-}
+    padding: 1rem; }
 
-main h1{
-    margin-bottom: 20px;
-}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  justify-content: center;
+  background-color: #E4EAE1;
+  margin-bottom: 1px; }
+  section .planes {
+    text-align: center; }
+  section .card {
+    margin: 1rem; }
+  section .card-body {
+    background-color: #C9D6C2; }
+  section .card-img-top {
+    width: 250;
+    height: 200px; }
+  section .card:hover {
+    border-color: #ff6347; }
 
-main p{
-    font-size: 25px;
-    margin-bottom: 20px;
-    text-align: center;
-}
+footer {
+  background-color: #485B3E;
+  padding: 50px;
+  text-align: center; }
+  footer img {
+    width: 40px;
+    height: 40px;
+    margin: 10px; }
+  footer .derechos {
+    color: aliceblue;
+    margin: 20px; }
 
-/* estilos de section */
-section{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 3rem;
-    justify-content: center;
-    background-color: #E4EAE1;
-    margin-bottom: 1px;
-    
-    
+main .container {
+  margin: 0;
+  padding: 0;
+  background-color: #AEC1A4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 100%; }
 
-}
+main .p-about {
+  color: white; }
 
+section {
+  text-align: center; }
+  section .div-planes {
+    margin-bottom: 10px; }
+    section .div-planes .img-planes {
+      height: 200px;
+      width: 350px;
+      margin-top: 15px;
+      margin-bottom: 15px; }
 
-.planes{
-    text-align: center;
-}
+main .main-div.eventos {
+  align-items: center;
+  text-align: center; }
 
-.card{
-    margin: 1rem;
-   
-}
+main .tituloevento {
+  text-align: center; }
 
-.card-body{
-    background-color: #C9D6C2;
-}
+.section-eventos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1px; }
 
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1px; }
 
+main .titulo-suscripcion {
+  text-align: center; }
+
+@media screen and (min-width: 600px) {
+  main img {
+    width: 500px;
+    height: 300px; } }
+
+main div img {
+  width: 200px;
+  height: 150px; }
+
+@media screen and (min-width: 1024px) {
+  main img {
+    width: 850px;
+    height: 450px; } }
+
+main div img {
+  width: 250px;
+  height: 200px; }
+
+.vision {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }

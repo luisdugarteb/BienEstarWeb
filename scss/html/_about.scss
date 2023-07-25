@@ -1,0 +1,24 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+
+//estilos main
+
+main {
+    .container {
+        margin: 0;
+        padding: 0;
+        background-color: $color-parrafo;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        
+        height: 100%;
+    }
+
+    .p-about {
+        color: white;
+    }
+}
+

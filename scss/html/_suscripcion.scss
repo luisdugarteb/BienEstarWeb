@@ -1,0 +1,21 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
+// estilos suscripcion
+
+//estilos main
+
+main{
+    .titulo-suscripcion{
+        text-align: center;
+    }
+}
+
+//estilos formulario
+//uso de extend
+
+.formulario{
+  @extend %flex;
+}
+

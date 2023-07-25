@@ -1,0 +1,27 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+
+//estilos eventos
+
+
+main{
+    .main-div.eventos{
+        align-items: center;
+        text-align: center;
+    }
+
+    .tituloevento{
+        text-align: center;
+    }
+
+}
+
+.section-eventos{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1px;
+}
+

@@ -1,0 +1,27 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+
+//estilos planes
+
+
+//estilos section
+section {
+text-align: center;
+
+
+    .div-planes {
+       margin-bottom: 10px;
+       
+
+        .img-planes{
+            height: 200px;
+            width: 350px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            
+        }
+
+        
+    }
+}

@@ -14,7 +14,9 @@
 </head>
 
 <body>
+  <!-- header -->
   <header>
+    <!-- nav -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html"><img src="../assets/logo.png" alt="logo bien estar"></a>
@@ -22,7 +24,7 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
@@ -33,7 +35,7 @@
             <li class="nav-item">
               <a class="nav-link" href="../pages/planes.html">Planes</a>
             </li>
-            <li class="nav-item"> 
+            <li class="nav-item">
               <a class="nav-link" href="../pages/eventos.html">Eventos</a>
             </li>
 
@@ -49,19 +51,67 @@
   </header>
 
   <main>
-    <h1>Proximos Eventos</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea accusamus sapiente dolor, et ducimus aperiam
-      voluptatibus expedita rerum praesentium, laborum tempora nam officia. Veritatis perspiciatis doloremque
-      voluptatibus culpa temporibus.</p>
-    <h2>Lugar</h2>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13141.33629411121!2d-58.41541974212763!3d-34.570412567456216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb561d4729513%3A0x6b0f6dc1ae26074c!2sBosques%20de%20Palermo%2C%20C1425%20CABA!5e0!3m2!1ses-419!2sar!4v1686545471427!5m2!1ses-419!2sar"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </main>
+    <!-- titulos eventos -->
+    <div class="main-div-eventos">
+      <h1 class="tituloevento">Proximos Eventos</h1>
+      <p>En nuestros planes vienen incluidos eventos, sin costo adicional, aca puedes consultar mas detalles. </p>
+    </div>
 
+  </main>
+  <!-- lista de eventos -->
+  <section class="section-eventos">
+    <h2>
+      Carrera Bosques de Palermo
+    </h2>
+
+    <p>Carrera recreativa de 3km por los senderos de los Bosques de Palermo.</p>
+
+    <h3>Ubicación</h3>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13141.262400231837!2d-58.4171029!3d-34.5708801!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59f0e33d4eb%3A0xb4d7c2d0044d32e!2sParque%20Tres%20de%20Febrero!5e0!3m2!1ses-419!2sar!4v1690212304612!5m2!1ses-419!2sar"
+      width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <button type="button" class="btn btn-outline-secondary">Anotarse</button>
+
+
+  </section>
+
+  <section class="section-eventos">
+    <h2>
+      Bicicleta
+    </h2>
+
+    <p>Paseo en Bicleta por tigre</p>
+
+    <h3>Ubicación</h3>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26328.144637351274!2d-58.59652619736732!3d-34.426295873846136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca5a2d0ddb9b1%3A0x2c1a974c67cba1e4!2sTigre%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1690212916652!5m2!1ses-419!2sar"
+      width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <button type="button" class="btn btn-outline-secondary">Anotarse</button>
+
+
+  </section>
+
+
+  <!-- footer -->
   <footer>
-    Todos los derechos reservados
+    <div>
+      <a href="http://www.instagram.com" target="_blank"><img src="../assets/instagram.png"
+          alt="logo para redirigir a instagram"></a>
+      <a href="http://www.twitter.com" target="_blank"><img src="../assets/twitter.png"
+          alt="logo para redirigir a twitter"></a>
+      <a href="http://www.facebook.com" target="_blank"><img src="../assets/facebook.png"
+          alt="logo para redirigir a facebook"></a>
+    </div>
+
+    <div class="derechos">Todos los derechos reservados.
+
+    </div>
   </footer>
 
   <!-- script -->
