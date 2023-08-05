@@ -12,6 +12,10 @@
             width: 500px;
             height: 300px;
         }
+
+        p{
+            width: 700px;
+        }
     }
 }
 
@@ -34,8 +38,12 @@ main{
             height: 450px;
         
         }
+
+        p{
+            width: 700px;
+        }
     }
-}
+
 
 main{
     div{
@@ -51,9 +59,17 @@ main{
         display: flex;
         flex-direction: column;
         text-align: center;
+       
+        
     }
 
-    
+    section{
+        .info-adicional{
+            width: 250px;
+        }
+    }
+
+  }  
 
 
 

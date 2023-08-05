@@ -49,6 +49,8 @@ section {
   section .card-img-top {
     width: 250;
     height: 200px; }
+  section .info-adicional {
+    text-align: justify; }
   section .card:hover {
     border-color: #ff6347; }
 
@@ -72,7 +74,8 @@ main .container {
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 main .p-about {
   color: white; }
@@ -111,10 +114,15 @@ main .tituloevento {
 main .titulo-suscripcion {
   text-align: center; }
 
+section .mb-3 {
+  width: 300px; }
+
 @media screen and (min-width: 600px) {
   main img {
     width: 500px;
-    height: 300px; } }
+    height: 300px; }
+  main p {
+    width: 700px; } }
 
 main div img {
   width: 200px;
@@ -123,13 +131,15 @@ main div img {
 @media screen and (min-width: 1024px) {
   main img {
     width: 850px;
-    height: 450px; } }
-
-main div img {
-  width: 250px;
-  height: 200px; }
-
-.vision {
-  display: flex;
-  flex-direction: column;
-  text-align: center; }
+    height: 450px; }
+  main p {
+    width: 700px; }
+  main div img {
+    width: 250px;
+    height: 200px; }
+  .vision {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  section .info-adicional {
+    width: 250px; } }
